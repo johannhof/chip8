@@ -1,0 +1,12 @@
+[package]
+name = "chip8"
+version = "0.1.0"
+authors = ["Johann Hofmann <mail@johann-hofmann.com>"]
+
+[[bin]]
+name = "chip8"
+test = false
+
+[dependencies]
+sdl2 = "0.30.0"
+lazy_static = "0.2.8"
